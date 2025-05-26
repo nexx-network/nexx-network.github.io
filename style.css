@@ -1,0 +1,534 @@
+/* THIS IS MADE BY TAGSDESIGN, THE OWNER, FOUNDER AND OWN DEVELOPER OF NEXX, ALL ASSETS USED BY THIS WEBSITE IS OWNED BY NEXX, UNLESS STATED*/
+/* © 2025 NEXX */
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #101D03;
+    font-family: sans-serif;
+}
+
+/* INTRO START */
+.introduction {
+  width: 100%;
+  height: 100vh;
+  align-content: center;
+  text-align: center;
+  color: white;
+}
+
+.intros a {
+  border-radius: 5px;
+  padding: 15px;
+  background: #1A270D;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: ease-in-out 1s;
+}
+
+.title {
+  font-size: 50px;
+  color: #DCDCDC;
+  transition: ease-in-out 1s;
+}
+
+.title:hover {
+  font-size: 55px;
+  color: white;
+}
+
+.intros a:hover {
+  border-radius: 5px;
+  padding: 20px;
+  background: #1A270D;
+  text-decoration: none;
+  color: lightgray;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.intros p {
+  color: dimgrey;
+}
+/* INTRO ENDS */
+
+
+/*NAV START*/
+
+.nav {
+    background: #0E110B;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    padding-left: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 97382837;
+}
+
+.nav-title {
+}
+
+.nav-title a {
+    align-items: center;
+    font-weight: bold !important;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+/*NAV END*/
+
+/* FAQ START*/
+.wrapper {
+  width: 100%;
+  margin: auto;
+  background: #0E110B;
+  padding-bottom: 15px;
+  margin-bottom: 25vh;
+}
+
+.wrapper > p,
+.wrapper > h1 {
+  margin: 1.5rem 0;
+  text-align: center;
+  color: lightgray;
+}
+
+.wrapper > h1 {
+  font-size: 20px;
+}
+
+.wrapper > p {
+  font-size: 15px;
+}
+
+.wrapper > h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 15px;
+  padding-top: 15px;
+}
+
+.accordion {
+  background-color: #171917;
+  color: lightgray;
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 98%;
+  padding: 2rem 2.5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  font-weight: bold;
+  margin: 5px;
+  transition: ease-in-out 1s;
+}
+
+.accordion:hover {
+  background-color: #171917;
+  color: white;
+  cursor: pointer;
+  font-size: 1.4rem;
+  width: 98%;
+  padding: 2rem 2.5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.accordion i {
+  font-size: 1.3rem;
+}
+
+.active,
+.accordion:hover {
+  color: lightgray;
+}
+.pannel {
+  padding: 0 2rem 2.5rem 2rem;
+  background-color: black;
+  overflow: hidden;
+  background-color: #171917;
+  display: none;
+}
+.pannel p {
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+.faq {
+  border: 1px solid #171917;
+  margin: 10px 0;
+  max-inline-size: 600px;
+  min-inline-size: 50px;
+  margin-inline: auto;
+  align-content: left;
+}
+/* FAQ END */
+
+/*OFFER START*/
+.offer {
+    background: #0E110B;
+    color: white;
+    padding: 15px;
+    margin-bottom: 25vh;
+    margin-top: 15vh;
+}
+.offer-line {
+   align-items: center;
+   max-inline-size: 600px;
+   margin-inline: auto;
+}
+
+.offer-bar > h1 {
+    color: lightgray;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: ease-in-out 1s;
+}
+
+.offer-bar > h1:hover {
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.offer-bar > p {
+    color: gray;
+    font-size: 17px;
+    text-align: center;
+}
+
+.offer-rows {
+    display: flex;
+    align-items: center;
+}
+
+.offer-rows i {
+  color: lightgray;
+  margin-right: 35px;
+  transition: ease-in-out 1s;
+}
+
+.offer-rows i:hover {
+  color: white;
+  margin-right: 35px;
+}
+
+.offer-row {
+  display: block;
+}
+
+.offer-row h2 {
+    color: lightgray;
+    font-size: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    transition: ease-in-out 1s;
+}
+
+.offer-row h2:hover {
+    color: white;
+    font-size: 23px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.offer-row p {
+    color: gray;
+    font-size: 15px;
+    text-align: left;
+}
+
+/* OFFER END */
+
+/* STATS START*/
+.stats-container {
+  background: #0E110B;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px auto;
+  margin-top: 0;
+  max-width: 1000px;
+  padding-inline: 16px;
+  padding-bottom: 25px;
+  margin-bottom: 25vh;
+}
+
+.stats-title {
+  background: #0E110B;
+  color: lightgray;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.stats-container .stat {
+  margin-top: 15px;
+  background: #171917;
+  padding: 24px;
+  text-align: center;
+  color: lightgray;
+  border-radius: 15px;
+  transition: ease-in-out 1s;
+}
+
+.stats-container .stat:hover {
+  margin-top: 15px;
+  background: #171917;
+  padding: 24px;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  font-size: 55px;
+}
+
+.stats-container .stat .odometer {
+  font-size: 50px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.stats-container .stat .type {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.odometer.plus {
+  position: relative;
+}
+
+.odometer.plus::after {
+  content: "+";
+  position: absolute;
+  top: 0;
+  right: -16px;
+  font-size: 20px;
+}
+
+.type {
+  color: gray;
+  font-size: 25px;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+  .stats-container {
+    grid-template-columns: 1fr;
+  }
+}
+/* STATS END*/
+
+/* FOOTER START */
+
+.footer {
+  position: absolute;
+  width: 100%;
+  background: #0E110B;
+  text-align: center;
+  color: white;
+  padding: 15px 0;
+  margin-top: 50px;
+}
+
+.footer-info {
+  padding: 15px;
+}
+
+.footer-info h3 {
+  font-size: 25px;
+  color: lightgray;
+  transition: ease-in-out 1s;
+}
+
+.footer-info h3:hover {
+  font-size: 30px;
+  color: white;
+}
+
+.footer-info p {
+  color: gray;
+}
+
+
+.footer-buttons {
+  padding: 15px;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-button {
+  color: darkgray;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: ease-in-out 1s;
+
+}
+
+.footer-button:hover {
+  color: lightgray;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: px;
+}
+
+.copyright {
+  font-size: 15px;
+  margin-top: 10px;
+  color: gray;
+}
+
+/* FOOTER END*/
+
+/* ANIMATIONS START */
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-up {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: all 0.6s ease-in-out;
+}
+
+.slide-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ANIMATIONS END */
+
+/* TOS & PP STARTS */
+.tos-intro {
+  padding-top: 75px;
+  width: 100%;
+  background: #0E110B;
+  margin-bottom: 5px;
+}
+
+.tos-intro-contents {
+  align-items: left;
+  justify-content: center;
+  max-inline-size: 600px;
+  margin-inline: auto;
+  padding: 25px;
+}
+
+.tos-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 15px;
+  padding-top: 15px;
+  padding-bottom: 0;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  transition: ease-in-out 1s;
+}
+
+.tos-title:hover {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 15px;
+  padding-top: 15px;
+  padding-bottom: 0;
+  text-align: center;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+.tos-short-description {
+  color: gray;
+  text-align: left;
+}
+
+.tos-date {
+  font-size: 15px;
+  text-align: center;
+  color: dimgray;
+}
+
+.tos-containers {
+  width: 100%;
+  background: #0E110B;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tos-containers-contents {
+  display: column;
+  align-items: center;
+  max-inline-size: 700px;
+  margin-inline: auto;
+}
+
+.tos-container {
+  margin: 35px;
+}
+
+.tos-container-header {
+  color: lightgray;
+  text-align: left;
+  font-size: 20px;
+  transition: ease-in-out 1s;
+}
+
+.tos-container-header:hover {
+  color: white;
+  text-align: left;
+  font-size: 23px;
+}
+
+.tos-container-header {
+  color: lightgray;
+  text-align: left;
+}
+
+.tos-container-description {
+  color: gray;
+  text-align: left;
+}
+/* TOS & PP ENDS */
